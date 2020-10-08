@@ -1,11 +1,16 @@
-#banner {
-       background-image: url(../images/BannerWeb1copy.png);
+* {
+       
+       font-family: 'Work Sans', sans-serif;
+      }
+
+      #banner {
+       background-image: url(../images/dark_tint.png),url(../images/hmm.jpg);
        background-position: center center;
        background-size: cover;
        
        
        color: #ffffff;
-       padding: 10.5em 0em 10.5em;
+       padding: 13em 0em 13em;
        text-align: center;
 }
 
@@ -148,3 +153,13 @@
        
        
        .ull{margin: -3px;}
+
+       .card .card-header {
+              background-color: transparent; 
+              border-color: transparent;
+            }
+
+       .card .card-header { 
+              
+                font-family: 'Work Sans', sans-serif;
+       }
